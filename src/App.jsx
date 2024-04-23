@@ -5,7 +5,8 @@ function App() {
 
   return (
     <div>
-     <h1>hello ismail</h1>
+     <h1>hello ismail git checkout -b new-feature
+</h1>
     </div>
   )
 }
