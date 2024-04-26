@@ -1,4 +1,6 @@
 :root {
+  --background-color: #1a202c;
+  --text-color: #ffffff;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -13,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
 a {
   font-weight: 500;
   color: #646cff;

@@ -1,12 +1,14 @@
 import './App.css'
+import Counter from './counter'
+import FlashStateUpdate from './flashStateUpdate'
 
 function App() {
 
 
   return (
     <div>
-     <h1>hello ismail git checkout -b new-feature
-</h1>
+     <Counter/>
+     <FlashStateUpdate/>
     </div>
   )
 }
