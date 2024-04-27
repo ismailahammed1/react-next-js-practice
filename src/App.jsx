@@ -1,11 +1,12 @@
 import './App.css'
+import MyComponent from './component/MyComponent'
 
 function App() {
 
 
   return (
     <div>
-     <h1>hello ismail</h1>
+        <MyComponent/>
     </div>
   )
 }
