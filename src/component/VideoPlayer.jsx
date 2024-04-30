@@ -6,12 +6,14 @@ const VideoPlayer = ({ src, isPlaying }) => {
 
     const ref = useRef(null);
     useEffect(() => {
-        if (isPlaying) {
-          ref.current.play();
-        } else {
-          ref.current.pause();
-        }
-      });
+      if (isPlaying) {
+        console.log('Calling video.play()');
+        ref.current.play();
+      } else {
+        console.log('Calling video.pause()');
+        ref.current.pause();
+      }
+    }, [isPlaying]);
   return (
    
     <div>
